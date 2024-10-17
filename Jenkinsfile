@@ -17,7 +17,7 @@ pipeline {
             }
         }
 
-        stage('Pre-Build') {
+        stage('Pre-Build') {  //abijith poli aa
             steps {
                 script {
                     catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
